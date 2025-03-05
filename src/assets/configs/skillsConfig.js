@@ -13,7 +13,20 @@ import {
     SiSnowflake,
     SiApacheairflow,
     SiApachekafka,
-    SiPowerbi
+    SiPowerbi,
+    SiQgis,
+    SiR,
+    SiQt,
+    SiDuckdb,
+    SiSqlalchemy,
+    SiFlask,
+    SiHtmx,
+    SiLangchain,
+    SiGooglebigquery,
+    SiDigitalocean,
+    SiFlood,
+    SiGdal,
+    
 } from "react-icons/si";
 import {GrMysql} from "react-icons/gr";
 import {FaGitAlt} from "react-icons/fa";
@@ -37,8 +50,8 @@ const skillsConfig = {
         {
             id: "skills-2",
             className: "skill-icon",
-            icon: <SiMicrosoftsqlserver size={50}/>,
-            text: "MSSQL"
+            icon: <SiQgis size={50}/>,
+            text: "QGIS"
         },
         {
             id: "skills-3",
@@ -49,29 +62,30 @@ const skillsConfig = {
         {
             id: "skills-4",
             className: "skill-icon",
-            icon: <SiMicrosoftazure size={50}/>,
-            text: "Azure"
+            icon: <SiFlood size={50}/>,
+            text: "Flood Modelling"
         },
         {
             id: "skills-5",
             className: "skill-icon",
             icon: <FaGitAlt size={50}/>,
             text: "Git"
-        }
-    ],
-    complementarySkills: [
-        {
-            id: "skills-5",
-            className: "skill-icon",
-            icon: <GrMysql size={50}/>,
-            text: "MySQL"
         },
         {
             id: "skills-6",
             className: "skill-icon",
-            icon: <SiRedis size={50}/>,
-            text: "Redis"
+            icon: <SiR size={50}/>,
+            text: "R"
         },
+        {
+            id: "skills-7",
+            className: "skill-icon",
+            icon: <SiGdal size={50}/>,
+            text: "GDAL"
+        },
+    ],
+    complementarySkills: [
+
         {
             id: "skills-7",
             className: "skill-icon",
@@ -88,13 +102,7 @@ const skillsConfig = {
             id: "skills-9",
             className: "skill-icon",
             icon: <SiApacheairflow size={50}/>,
-            text: "Airflow"
-        },
-        {
-            id: "skills-10",
-            className: "skill-icon",
-            icon: <SiJavascript size={50}/>,
-            text: "JS"
+            text: "Airflow/Kestra"
         },
         {
             id: "skills-11",
@@ -109,24 +117,16 @@ const skillsConfig = {
             text: "HTML 5"
         },
         {
-            id: "skills-13",
-            className: "skill-icon",
-            icon: <SiReact size={50}/>,
-            text: "React"
-        }
-        ,
-        {
-            id: "skills-14",
-            className: "skill-icon",
-            icon: <SiApachekafka size={50}/>,
-            text: "Kafka"
-        }
-        ,
-        {
             id: "skills-15",
             className: "skill-icon",
             icon: <SiPowerbi size={50}/>,
             text: "Power BI"
+        },
+        {
+            id: "skills-16",
+            className: "skill-icon",
+            icon: <SiQt size={50}/>,
+            text: "PyQt"
         }
     ]
 }

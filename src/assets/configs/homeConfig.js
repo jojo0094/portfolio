@@ -9,70 +9,69 @@ const homeConfig = {
 
     greeting:
         <h1 className="heading">
-            Hi! I'm <strong className="main-name"> Rodrigo Arenas</strong>
+            Kia Ora! I'm <strong className="main-name"> Jo Jo (Aung Kyaw Kyaw) </strong>
         </h1>,
     titles: [
-        "A Data Scientist",
-        "A Machine Learning Specialist",
-        "An Open Source Contributor",
-        "A Backend Developer",
-        "A Colombian"
+        "On a journey to be a fullstack Data Scientist",
+        "A 3-Water Engineer solving New Zealand stormwater and water supply challenges",
+        "A Learning Data Engineer",
+        "A Flood/Urban Stormwater/Water Supply/Waste Water Modeller",
+        "A Climate/Sustainable Finance Enthusiast",
     ],
     about: {
-        start: "I've been working for over nine years on data science projects. " +
-            "I'm excited by learning new things, contributing to the data science community," +
-            " and spreading the word of data!",
-        exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
-            "with a deep interest in machine learning."
+        start: "I've been working for seven years on environmental, water and climate projects. " +
+            "I'm excited by learning new things, digging deeper into concepts," +
+            " and somtimes naively dreaming for reinventing the wheel.",
+        exit: "I'm fluent at Python, geospatial data pre/post processing, BI tools, and more, " +
+            "with a deep interest in automated workflow."
     },
     workTimeline: [
         {
             id: "work-4",
-            title: "Sr ML Engineer",
-            company: "EPAM",
-            description: "Working to build scalable ML solutions, LLM's, and RAG architectures.",
-            date: "2023-Present",
+            title: "Engineer (Water)",
+            company: "WSP NZ Ltd",
+            description: "Help solve the New Zealand’s 3-water challenges by delivering engineering solutions to government, emergency management, and transport agency, ensuring efficient, sustainable water systems for all. Some projects encompass preliminary stages to detailed design and construction worth in the millions.",
+            date: "2022-Present",
             icon: <BiRocket/>,
-            tags: ["ml", "mlops", "python", "azure", "llm", "automl"]
+            tags: ["Automated Model Build", "Flood Modelling (TUFLOW/HECRAS/ICM)","Rainfall-runoff", "Water Supply Master Planning", "Python/Bash scripts", "GDAL/QGIS/Geopandas", "PowerBI", "3-Water Engineering Design Regulatory Compliance (Climate/Level of Service)"] 
         },
         {
             id: "work-3",
-            title: "Sr Data Scientist",
-            company: "Globant",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-2023",
+            title: "Consultant (Technical Research Associate)",
+            company: "International Water Management Institute (IWMI)",
+            description: "Collated CORDEX-SEA climate projection data and established a workflow to condut station-based statistical downscaling to be later used in SWAT hydrology model. "+
+            "Also led water quality monitoring campaign for sustainable fish farming in Myanmar, staring from project planning, equipment procurement, field data collection, and data analysis.",
+            date: "2020-2022",
             icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
+            tags: ["Statistical Downscaling","Extreme Climate Indices", "python/R", "CORDEX-SEA", "Cloud Server", "Water Quality Monitoring" ]
         },
         {
             id: "work-2",
-            title: "BI Manager",
-            company: "Rappi",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
-            date: "2019-2021",
+            title: "Researcher (Core Water Modelling Team) - Part-time role",
+            company: "Collaboration between IWMI, Manchester University, and Yangon Technological University",
+            description: "Assisted in code development for evaluation of metrics such as river segmentation, water supply reliability, and climate resiliency" +
+                ",including json/YAML model config file generation for pywr (network resource allocation model).",
+            date: "2020-2022",
             icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+            tags: ["PYWR", "Multi-objective opitmisation", "python", "automated inundation area generation"]
         },
         {
             id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
+            title: "Institutional Analyst/River Engineer",
+            company: "International Geomatics Services Co., Ltd",
+            description: "Conducted gap analysis regarding human resources, financial resources, and structure of organisation to finally produce organisational plan, inventory and procurement strategies for an upgraded establishment of a hydrographic office under DWIR (Directorate of Water Resources and Improvement of River Systems), Myanmar." , 
+            date: "2019-2020",
             icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
+            tags: ["Stakeholder Analysis", "Organisational Survey", "Hydrographic Survey", "Field Operation Procedure"]
         },
         {
             id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
+            title: "Environmental Engineer",
+            company: "E Guard Environmental Services Co., Ltd",
+            description: "Contextualize relevant environmental regulations and categorise assessment levels for proposed projects for resource consent applications.",
+            date: "2016-2017",
             icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
+            tags: ["Environmental Social Impact Assessment", "Environmental Management Planning", "Stakeholder Meeting", "Environmental Monitoring"]
         }
     ]
 }
