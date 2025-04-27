@@ -5,9 +5,9 @@ import projectConfig from '../assets/configs/projectConfig';
 
 const Projects = () => {
     return (
-        <Grid2 container spacing={6} justifyContent="center">
+        <Grid2 container spacing={2} justifyContent="left">
             {projectConfig.map((item, index) => (
-                <Grid2 item key={index} xs={12} sm={6} md={4}>
+                <Grid2 item key={index} xs={12} sm={1} md={1}>
                     <CardItem item={item} />
                 </Grid2>
             ))}

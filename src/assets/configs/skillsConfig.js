@@ -45,7 +45,7 @@ const skillsConfig = {
             id: "skills-1",
             className: "skill-icon",
             icon: <SiPostgresql size={50}/>,
-            text: "Postgres"
+            text: "Postgres/PostGIS"
         },
         {
             id: "skills-2",
@@ -76,6 +76,12 @@ const skillsConfig = {
             className: "skill-icon",
             icon: <SiR size={50}/>,
             text: "R"
+        },
+        {
+            id: "skills-7",
+            className: "skill-icon",
+            icon: <SiGdal size={50}/>,
+            text: "POSTGIS"
         },
         {
             id: "skills-7",
