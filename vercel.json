@@ -1,5 +1,19 @@
 {
   "buildCommand": "echo 'Using pre-built files'",
   "outputDirectory": "build",
-  "installCommand": "echo 'No install needed'"
+  "installCommand": "echo 'No install needed'",
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "portfolio2-gamma-dusky.vercel.app"
+        }
+      ],
+      "destination": "https://www.jojo-curiosity-lab.com/$1",
+      "permanent": true
+    }
+  ]
 }
+
