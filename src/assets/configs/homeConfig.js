@@ -12,20 +12,48 @@ const homeConfig = {
             Kia Ora! I'm <strong className="main-name"> Jo Jo (Aung Kyaw Kyaw) </strong>
         </h1>,
     titles: [
-        "On a journey to be a fullstack Data Scientist",
+        "Asset Engineer, Matamata-Piako District Council",
         "A 3-Water Engineer solving New Zealand stormwater and water supply challenges",
-        "A Learning Data Engineer",
+        "A Data Engineer",
         "A Flood/Urban Stormwater/Water Supply/Waste Water Modeller",
-        "A Climate/Sustainable Finance Enthusiast",
     ],
     about: {
-        start: "I've been working for seven years on environmental, water and climate projects. " +
+        start: "I've been working for eight years on environmental, water and climate projects. " +
             "I'm excited by learning new things, digging deeper into concepts," +
             " and somtimes naively dreaming for reinventing the wheel.",
         exit: "I'm fluent at Python, geospatial data pre/post processing, BI tools, and more, " +
             "with a deep interest in automated workflow."
     },
     workTimeline: [
+        {
+    id: "work-5",
+    title: "3 Water Asset Management Engineer",
+    company: "Matamata-Piako District Council",
+    description: `Matamata-Piako District Council · Full-time
+Jul 2025 - Present · 8 mos
+
+• Integrated legacy SCADA and live databases to create real-time asset dashboards, improving visibility of network performance and enabling data-driven decisions.
+• Managed stormwater asset data, coordinating surveys, as-built data capture, and public consultation for consent processes.
+• Reviewed developer-submitted engineering reports for stormwater compliance and asset integrity.
+• Coordinated CCTV inspection programmes across wastewater networks to inform maintenance planning.
+• Updated and recalibrated water supply models for master planning and lifecycle management.
+• Developed a digital-twin water supply model (EPANET) integrating SCADA, billing, and GIS data for Te Aroha.
+• Automated RITS asset attribute pipelines, ensuring consistent and unified asset information across systems.`,
+    date: "Jul 2025 - Present",
+    icon: <BiRocket/>,
+    tags: [
+        "Asset Management",
+        "Digital Twin Development",
+        "SCADA Data Integration",
+        "Water Network Modelling",
+        "Stormwater & Wastewater Condition Assessment",
+        "Python/Bash Automation",
+        "GDAL/QGIS/Geopandas",
+        "PowerBI Dashboards",
+        "Regulatory Compliance & LoS Planning"
+    ]
+},
+
         {
             id: "work-4",
             title: "Engineer (Water)",
